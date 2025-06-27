@@ -22,13 +22,21 @@
             </ol>
             <img src="Australian_Kiwi.webp" alt="En kiwi">
             <form action="/submit-stuff">
+                <label for="fugl">
+                    <input id="fugl" type="radio" name="fugl-frugt"> Fugl
+                </label><br>
+                <label for="frugt">
+                    <input id="frugt" type="radio" name="fugl-frugt"> Frugt
+                </label><br>
                 <label>
-                    <input type="radio" name="fugl-frugt"> Fugl
-                </label>
+                    <input type="checkbox" name="smag" id="sød"> Sød
+                </label><br>
                 <label>
-                    <input type="radio" name="fugl-frugt"> Frugt
-                </label>
-                
+                    <input type="checkbox" name="smag" id="bitter"> Bitter
+                </label><br>
+                <label>
+                    <input type="checkbox" name="smag" id="meh"> Meh...
+                </label><br>
                 <input type="text" placeholder="kiwi billede URL" required>
                 <button type="submit">Send billede!</button>
             </form>
