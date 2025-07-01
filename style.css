@@ -1,3 +1,4 @@
+
 .big {
     color: blue;
 }
@@ -11,4 +12,13 @@
 }
 body{
     background-image: url(img/wood-background.jpg);
+}
+#my-table, #my-table th,#my-table td{
+    border: 2px solid white;
+    color: white;
+}
+@media (max-width: 600px) {
+    body{
+         background-image: none;
+    }
 }
