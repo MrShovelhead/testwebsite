@@ -9,3 +9,6 @@
     border: 10px dotted green;
     background-color: red;
 }
+body{
+    background-image: url(img/wood-background.jpg);
+}
